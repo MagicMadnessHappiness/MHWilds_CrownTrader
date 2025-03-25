@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <base href="/MHWilds_CrownTrader/" />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MonsterHunterWilds_CrownTrader</title>
@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="MonsterHunterWilds_CrownTrader.styles.css" rel="stylesheet" />
+
+    <base href="/MHWilds_CrownTrader/" />
+
+    <script>
+        // Detect if running on GitHub Pages or locally
+        var isGitHubPages = window.location.hostname.includes("github.io");
+        var baseTag = document.querySelector("base");
+
+        if (isGitHubPages) {
+            baseTag.href = "/MHWilds_CrownTrader/"; // GitHub Pages base URL
+        } else {
+            baseTag.href = "/"; // Local development base URL
+        }
+    </script>
+
 </head>
 
 <body>

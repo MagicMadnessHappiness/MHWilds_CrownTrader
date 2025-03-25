@@ -1,0 +1,308 @@
+@import '_content/PSC.Blazor.Components.CopyToClipboard/PSC.Blazor.Components.CopyToClipboard.bundle.scp.css';
+
+/* /Components/InvestigationContainer.razor.rz.scp.css */
+.investigation-container[b-dfuwnk5r35] {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: none;
+}
+
+    .investigation-container .background[b-dfuwnk5r35] {
+    }
+
+    .investigation-container .foreground[b-dfuwnk5r35] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .investigation-container .monster_name_text[b-dfuwnk5r35] {
+        position: absolute;
+        top: 0.1rem;
+        left: 0.5rem;
+        text-align: left;
+        width: 70%;
+        font-size: 15px;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        overflow: hidden; /* Hide any overflow */
+    }
+
+
+    .investigation-container .little_crown_img[b-dfuwnk5r35], .big_crown_img[b-dfuwnk5r35] {
+        position: absolute;
+        border: ridge;
+        background-color: gray;
+        width: 2rem; /* Adjust size as needed (e.g., 40px) */
+        height: 2rem; /* Adjust size as needed (e.g., 40px) */
+        overflow: hidden; /* Hide any overflow */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0.2rem;
+        left: 0.2rem;
+        /*width: 1.5rem;*/ /* Make image fill the width of the button */
+        /*height: 1.5rem;*/ /* Make image fill the height of the button */
+        /*object-fit: contain;*/
+    }
+
+    .investigation-container .delete-button[b-dfuwnk5r35] {
+        position: absolute;
+        background-color: #B9A37E;
+        width: 20%;
+        height: 20%; /* Adjust size as needed (e.g., 40px) */
+        overflow: hidden; /* Hide any overflow */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0.2rem;
+        right: 0.2rem;
+        /*width: 1.5rem;*/ /* Make image fill the width of the button */
+        /*height: 1.5rem;*/ /* Make image fill the height of the button */
+        /*object-fit: contain;*/
+    }
+
+    .investigation-container .remaining_investigations[b-dfuwnk5r35] {
+        position: absolute;
+        bottom: 1.1rem;
+        right: 0.1rem;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        background: #B9A37E;
+        border : groove
+    }
+
+    .investigation-container .remaining-count-minus[b-dfuwnk5r35], .remaining-count-plus[b-dfuwnk5r35] {
+        position: absolute;
+        background-color: #B9A37E;
+        width: 20%;
+        height: 20%; /* Adjust size as needed (e.g., 40px) */
+        overflow: hidden; /* Hide any overflow */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0.2rem;
+        /*width: 1.5rem;*/ /* Make image fill the width of the button */
+        /*height: 1.5rem;*/ /* Make image fill the height of the button */
+        /*object-fit: contain;*/
+    }
+
+    .investigation-container .remaining-count-minus[b-dfuwnk5r35] {
+        right: 1.8rem;
+    }
+
+
+    .investigation-container .remaining-count-plus[b-dfuwnk5r35] {
+        right: 0.2rem;
+    }
+/* /Components/InvestigationGrid.razor.rz.scp.css */
+
+.investigation-grid[b-owxh9vi9yv] {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    border: double;
+    border-width: 20px;
+    background-color: #82A775;
+}
+
+    .investigation-grid .new-investigation[b-owxh9vi9yv] {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    .investigation-grid .new-investigation-button[b-owxh9vi9yv] {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+/* /Components/MonsterBox.razor.rz.scp.css */
+
+.monster-box[b-ij1lrz5tl3] {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+
+    border : none ;
+}
+
+    .monster-box .foreground[b-ij1lrz5tl3] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+
+    .monster-box .little_crown_button[b-ij1lrz5tl3], .big_crown_button[b-ij1lrz5tl3] {
+        position: absolute;
+        border : ridge;
+        background-color: gray;
+        width: 2rem; /* Adjust size as needed (e.g., 40px) */
+        height: 2rem; /* Adjust size as needed (e.g., 40px) */
+        overflow: hidden; /* Hide any overflow */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .monster-box .little_crown_button[b-ij1lrz5tl3] {
+        bottom: 0.2rem;
+        left: 0.2rem;
+    }
+    .monster-box .big_crown_button[b-ij1lrz5tl3] {
+        bottom: 0.2rem;
+        right: 0.2rem;
+    }
+
+    .monster-box .big_crown_button_img[b-ij1lrz5tl3] , .little_crown_button_img[b-ij1lrz5tl3] {
+        width: 1.5rem; /* Make image fill the width of the button */
+        height: 1.5rem; /* Make image fill the height of the button */
+        object-fit: contain;
+    }
+
+    .monster-box .monster_name_text[b-ij1lrz5tl3] {
+        position: absolute;
+        top: 0.1rem;
+        text-align : center;
+        width : 100%;
+        font-size: 15px;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+/* /Components/MonsterGrid.razor.rz.scp.css */
+
+.monster-grid[b-uzsvcwbw79] {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    border : double;
+    border-width : 20px;
+}
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-6m0tz3j1bl] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-6m0tz3j1bl] {
+    flex: 1;
+}
+
+.sidebar[b-6m0tz3j1bl] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+
+
+.page-title[b-6m0tz3j1bl] {
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.top-row[b-6m0tz3j1bl] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content:center;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-59y4rkn4d0] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-59y4rkn4d0] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-59y4rkn4d0] {
+    font-size: 1.1rem;
+}
+
+.bi[b-59y4rkn4d0] {
+    display: inline-block;
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+    top: -1px;
+    background-size: cover;
+}
+
+.bi-house-door-fill-nav-menu[b-59y4rkn4d0] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+}
+
+.bi-plus-square-fill-nav-menu[b-59y4rkn4d0] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
+}
+
+.bi-list-nested-nav-menu[b-59y4rkn4d0] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.nav-item[b-59y4rkn4d0] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-59y4rkn4d0] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-59y4rkn4d0] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-59y4rkn4d0]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-59y4rkn4d0]  a.active {
+    background-color: rgba(255,255,255,0.37);
+    color: white;
+}
+
+.nav-item[b-59y4rkn4d0]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-59y4rkn4d0] {
+        display: none;
+    }
+
+    .collapse[b-59y4rkn4d0] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-59y4rkn4d0] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

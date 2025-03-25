@@ -1,0 +1,152 @@
+[
+  {
+    "monster_id": 0,
+    "name": "Undiscovered",
+    "has_crown": true
+  },
+  {
+    "monster_id": 1,
+    "name": "Chatacabra",
+    "has_crown": true
+  },
+  {
+    "monster_id": 2,
+    "name": "Quematrice",
+    "has_crown": true
+  },
+  {
+    "monster_id": 3,
+    "name": "Lala Barina",
+    "has_crown": true
+  },
+  {
+    "monster_id": 4,
+    "name": "Congalala",
+    "has_crown": true
+  },
+  {
+    "monster_id": 5,
+    "name": "Balahara",
+    "has_crown": true
+  },
+  {
+    "monster_id": 6,
+    "name": "Doshaguma",
+    "has_crown": true
+  },
+  {
+    "monster_id": 7,
+    "name": "Uth Duna",
+    "has_crown": true
+  },
+  {
+    "monster_id": 8,
+    "name": "Rompopolo",
+    "has_crown": true
+  },
+  {
+    "monster_id": 9,
+    "name": "Rey Dau",
+    "has_crown": true
+  },
+  {
+    "monster_id": 10,
+    "name": "Nerscylla",
+    "has_crown": true
+  },
+  {
+    "monster_id": 11,
+    "name": "Hirabami",
+    "has_crown": true
+  },
+  {
+    "monster_id": 12,
+    "name": "Ajarakan",
+    "has_crown": true
+  },
+  {
+    "monster_id": 13,
+    "name": "Nu Udra",
+    "has_crown": true
+  },
+  {
+    "monster_id": 14,
+    "name": "G. Doshaguma",
+    "has_crown": true
+  },
+  {
+    "monster_id": 15,
+    "name": "G. Rathalos",
+    "has_crown": true
+  },
+  {
+    "monster_id": 16,
+    "name": "Jin Dahaad",
+    "has_crown": false
+  },
+  {
+    "monster_id": 17,
+    "name": "G. Ebony Odogaron",
+    "has_crown": true
+  },
+  {
+    "monster_id": 18,
+    "name": "Xu Wu",
+    "has_crown": true
+  },
+  {
+    "monster_id": 19,
+    "name": "G. Arkveld",
+    "has_crown": false
+  },
+  {
+    "monster_id": 20,
+    "name": "Zoh Shia",
+    "has_crown": false
+  },
+  {
+    "monster_id": 21,
+    "name": "Yian Kut-Ku",
+    "has_crown": true
+  },
+  {
+    "monster_id": 22,
+    "name": "Gypceros",
+    "has_crown": true
+  },
+  {
+    "monster_id": 23,
+    "name": "Rathian",
+    "has_crown": true
+  },
+  {
+    "monster_id": 24,
+    "name": "G. Fulgur Anjanath",
+    "has_crown": true
+  },
+  {
+    "monster_id": 25,
+    "name": "Rathalos",
+    "has_crown": true
+  },
+  {
+    "monster_id": 26,
+    "name": "Gravios",
+    "has_crown": true
+  },
+  {
+    "monster_id": 27,
+    "name": "Blangonga",
+    "has_crown": true
+  },
+  {
+    "monster_id": 28,
+    "name": "Gore Magala",
+    "has_crown": true
+  },
+  {
+    "monster_id": 29,
+    "name": "Arveld",
+    "has_crown": true
+  }
+]

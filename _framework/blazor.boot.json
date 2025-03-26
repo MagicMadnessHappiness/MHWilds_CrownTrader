@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MonsterHunterWilds_CrownTrader",
   "resources": {
-    "hash": "sha256-tVbn47R53CIiJi7xmzrQH7GBZb+UUBGi3Y64pRi06Sw=",
+    "hash": "sha256-PXGV2Z4pu26EDjjf6+uE6kGCiU1XDAjga38MuQHu9WM=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.4j2innegsz.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -33,7 +33,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.JSInterop.wasm": "sha256-vouTe4QgkAUd5a1MywWt4+lDckgaO+lkVNrn2DrMlNg=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-r/+bWAAxKn2+Wu3MRYDXvKEbHjLNuptflgNuNhQdK6w=",
-      "MonsterHunterWilds_CrownTrader.wasm": "sha256-cycnaXYm+LFgAAIWu80OU2vvaHXfVMdzQ+V/0W1LhYo=",
+      "MonsterHunterWilds_CrownTrader.wasm": "sha256-zKqYPGq7kSarX3IA/xG9iTxFHJlZjTt0i7qViaEC+R4=",
       "PSC.Blazor.Components.CopyToClipboard.wasm": "sha256-GkcS60Zj+tVWFBI1Vpj6X+y6RMunJXwXdAMx/qUR8QM=",
       "System.Collections.Concurrent.wasm": "sha256-k4r1+XhsFEvXBhs1hrJE/dSmP7fw6sYmNdq9cb8oEic=",
       "System.Collections.NonGeneric.wasm": "sha256-tEsxUMnbeFUPKirN5Pa/E7jvMJPWTh+1wnJEXG5SjZ4=",
